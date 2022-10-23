@@ -51,19 +51,19 @@ function drawGrid(){
 
 function heightMapColour(val){
 	// colour palette
-	if(val >= 0 & val <= 0.35){
+	if(val >= 0 & val <= 0.4){
 		//dark blue
 		stroke(0, 62, 178);
 		fill(0, 62, 178);
-	} else if(val > 0.35 & val <= 0.4){
+	} else if(val > 0.4 & val <= 0.45){
 		//light blue
 		stroke(9, 82, 198);
 		fill(9, 82, 198);
-	}	else if(val > 0.4 & val <= 0.45){
+	}	else if(val > 0.45 & val <= 0.48){
 		//sand
 		stroke(194, 178, 129);
 		fill(194, 178, 129);
-	}	else if(val > 0.45 & val <= 0.55){
+	}	else if(val > 0.48 & val <= 0.55){
 		//dark grass
 		stroke(92, 128, 51);
 		fill(92, 128, 51);
